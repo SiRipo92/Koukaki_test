@@ -1,0 +1,43 @@
+/*******************************
+ * Animation Keyframes
+ *******************************/
+
+ //////// Variables /////////
+ 
+ 
+/// Animation-duration
+$animation-duration: 1.25s;
+
+// Intended for banner
+@keyframes fade-in-slide-down {
+  0% {
+    opacity: 0;
+    transform: translateY(-300px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+// Intended for Section Titles and Sub-Titles
+@keyframes fade-in-slide-up {
+  0% {
+    opacity: 0;
+    transform: translateY(300px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+// Intended for Section "nth-last-child(p)" elements
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
