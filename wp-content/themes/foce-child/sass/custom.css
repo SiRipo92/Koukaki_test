@@ -14,7 +14,7 @@
 @keyframes fade-in-slide-up {
   0% {
     opacity: 0;
-    transform: translateY(300px);
+    transform: translateY(500px);
   }
   100% {
     opacity: 1;
@@ -29,9 +29,43 @@
     opacity: 1;
   }
 }
-.banner {
+.banner, .story, #characters, #place, #studio, .site-footer {
   animation: fade-in-slide-down 1.25s ease-in-out;
 }
-.banner img {
+.banner img, .story img, #characters img, #place img, #studio img, .site-footer img {
   animation: fade-in-slide-up 1.25s ease-in-out;
+}
+.banner h2, .banner h3, .banner div, .banner .other-characters, .banner__article, .story h2, .story h3, .story div, .story .other-characters, .story__article, #characters h2, #characters h3, #characters div, #characters .other-characters, #characters__article, #place h2, #place h3, #place div, #place .other-characters, #place__article, #studio h2, #studio h3, #studio div, #studio .other-characters, #studio__article, .site-footer h2, .site-footer h3, .site-footer div, .site-footer .other-characters, .site-footer__article {
+  animation: fade-in-slide-up 1.25s ease-in-out;
+}
+.banner h2::before, .banner h3::before, .banner div::before, .banner .other-characters::before, .banner__article::before, .story h2::before, .story h3::before, .story div::before, .story .other-characters::before, .story__article::before, #characters h2::before, #characters h3::before, #characters div::before, #characters .other-characters::before, #characters__article::before, #place h2::before, #place h3::before, #place div::before, #place .other-characters::before, #place__article::before, #studio h2::before, #studio h3::before, #studio div::before, #studio .other-characters::before, #studio__article::before, .site-footer h2::before, .site-footer h3::before, .site-footer div::before, .site-footer .other-characters::before, .site-footer__article::before {
+  animation: fade-in-slide-up 1.25s ease-in-out;
+}
+.banner h2::after, .banner h3::after, .banner div::after, .banner .other-characters::after, .banner__article::after, .story h2::after, .story h3::after, .story div::after, .story .other-characters::after, .story__article::after, #characters h2::after, #characters h3::after, #characters div::after, #characters .other-characters::after, #characters__article::after, #place h2::after, #place h3::after, #place div::after, #place .other-characters::after, #place__article::after, #studio h2::after, #studio h3::after, #studio div::after, #studio .other-characters::after, #studio__article::after, .site-footer h2::after, .site-footer h3::after, .site-footer div::after, .site-footer .other-characters::after, .site-footer__article::after {
+  animation: fade-in-slide-up 1.25s ease-in-out;
+}
+.banner::before, .banner ::after content, .story::before, .story ::after content, #characters::before, #characters ::after content, #place::before, #place ::after content, #studio::before, #studio ::after content, .site-footer::before, .site-footer ::after content {
+  animation: fade-in-slide-up 1.25s ease-in-out;
+}
+.banner div > p, .banner h2 > p, .banner h3 > p, .banner__article > p, .banner .other-characters > p, .story div > p, .story h2 > p, .story h3 > p, .story__article > p, .story .other-characters > p, #characters div > p, #characters h2 > p, #characters h3 > p, #characters__article > p, #characters .other-characters > p, #place div > p, #place h2 > p, #place h3 > p, #place__article > p, #place .other-characters > p, #studio div > p, #studio h2 > p, #studio h3 > p, #studio__article > p, #studio .other-characters > p, .site-footer div > p, .site-footer h2 > p, .site-footer h3 > p, .site-footer__article > p, .site-footer .other-characters > p {
+  animation: fade-in 1.25s ease-in-out;
+}
+
+.site-footer {
+  animation: fade-in-slide-up 1.25s ease-in-out;
+}
+.site-footer img {
+  animation: fade-in-slide-up 1.25s ease-in-out;
+}
+.site-footer h2, .site-footer h3, .site-footer div {
+  animation: fade-in-slide-up 1.25s ease-in-out;
+}
+.site-footer h2::before, .site-footer h3::before, .site-footer div::before {
+  animation: fade-in-slide-up 1.25s ease-in-out;
+}
+.site-footer h2::after, .site-footer h3::after, .site-footer div::after {
+  animation: fade-in-slide-up 1.25s ease-in-out;
+}
+.site-footer p {
+  animation: fade-in 1.25s ease-in-out;
 }/*# sourceMappingURL=custom.css.map */
