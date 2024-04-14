@@ -13,13 +13,14 @@ get_header();
             <article id="" class="story__article">
                 <p><?php echo get_theme_mod('story'); ?></p>
             </article>
+
             <?php get_template_part('partial-templates/characters'); ?>
+
             <article id="place">
                 <div>
                     <h3>Le Lieu</h3>
                     <p><?php echo get_theme_mod('place'); ?></p>
                 </div>
-
             </article>
         </section>
 
